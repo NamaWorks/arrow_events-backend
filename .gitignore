@@ -1,0 +1,6 @@
+*.env
+*.txt
+requirements.md
+db.txt
+node_modules
+*.DS_Store
