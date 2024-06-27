@@ -9,6 +9,7 @@ const eventSchema = new Schema(
     date: {type: String, required: true},
     location:{type: String, required: true},
     capacity:{type: Number, required: false},
+    color: { type: String, required: true},
     attendants: [{type: mongoose.Types.ObjectId, ref: "users"}]
 },{
   timestamps: true,

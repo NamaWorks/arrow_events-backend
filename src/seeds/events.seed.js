@@ -12,6 +12,7 @@ const eventsFeed = [
     date: "2024-06-01",
     location: "Madrid, Spain",
     capacity: "50",
+    color: "red",
     attendants: [
       "cocoMangoCrispyPollo",
       "hotPotato",
@@ -30,6 +31,7 @@ const eventsFeed = [
     date: "2024-06-15",
     location: "Barcelona, Spain",
     capacity: "30",
+    color: "yellow",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -47,6 +49,7 @@ const eventsFeed = [
     date: "2024-12-31",
     location: "Seville, Spain",
     capacity: "100",
+    color: "orange",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -63,6 +66,7 @@ const eventsFeed = [
     date: "2025-01-15",
     location: "Valencia, Spain",
     capacity: "20",
+    color: "purple",
     attendants: [
       "hotPotato",
       "interntGoblin",
@@ -80,6 +84,7 @@ const eventsFeed = [
     date: "2025-02-01",
     location: "Bilbao, Spain",
     capacity: "40",
+    color: "lightblue",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -97,6 +102,7 @@ const eventsFeed = [
     date: "2025-02-28",
     location: "Malaga, Spain",
     capacity: "35",
+    color: "aquagreen",
     attendants: [
       "Anananastasia",
       "hotPotato",
@@ -115,6 +121,7 @@ const eventsFeed = [
     date: "2025-03-15",
     location: "Granada, Spain",
     capacity: "50",
+    color: "white",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -134,6 +141,7 @@ const eventsFeed = [
     date: "2025-04-01",
     location: "Cordoba, Spain",
     capacity: "60",
+    color: "red",
     attendants: ["Anananastasia"],
   },
   {
@@ -143,6 +151,7 @@ const eventsFeed = [
     date: "2025-04-15",
     location: "Zaragoza, Spain",
     capacity: "45",
+    color: "yellow",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -162,6 +171,7 @@ const eventsFeed = [
     date: "2025-05-01",
     location: "Salamanca, Spain",
     capacity: "30",
+    color: "orange",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -180,6 +190,7 @@ const eventsFeed = [
     date: "2025-05-15",
     location: "Vigo, Spain",
     capacity: "40",
+    color: "purple",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -199,6 +210,7 @@ const eventsFeed = [
     date: "2025-06-01",
     location: "Alicante, Spain",
     capacity: "50",
+    color: "lightblue",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
@@ -218,6 +230,7 @@ const eventsFeed = [
     date: "2025-06-15",
     location: "Cadiz, Spain",
     capacity: "35",
+    color: "aquagreen",
     attendants: [
       "Anananastasia",
       "cocoMangoCrispyPollo",
