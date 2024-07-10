@@ -46,4 +46,14 @@ const removeEvent = async (req, res, next) => {
   }
 }
 
-module.exports = { getEvents, postEvent, updateEvent, removeEvent }
+const populateEvents = async (req, res, next) => {
+  try {
+    const events = await Event.find().populate('attendants')
+    // console.log(events);
+    return res.status(200).json(events)
+  } catch (err) {
+    return next(err)
+  }
+}
+
+module.exports = { getEvents, postEvent, updateEvent, removeEvent, populateEvents }

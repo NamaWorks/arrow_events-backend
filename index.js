@@ -5,13 +5,10 @@ const userRouter = require("./src/api/routes/user_routes.js")
 const eventsRouter = require("./src/api/routes/event_routes.js")
 const cloudinary = require("cloudinary").v2
 const cors = require("cors")
+const { configCloudinary } = require("./src/middleware/files-users.middleware.js")
 const server = express()
 
-// cloudinary.config({
-//   cloud_name: process.env.CLOUDINARY_API_NAME,
-//   api_key: process.env.CLOUDINARY_API_KEY,
-//   api_secret: process.env.CLOUDINARY_API_SECRET,
-// })
+configCloudinary()
 
 
 
