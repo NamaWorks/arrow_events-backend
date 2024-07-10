@@ -7,11 +7,11 @@ const cloudinary = require("cloudinary").v2
 const cors = require("cors")
 const server = express()
 
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_API_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-})
+// cloudinary.config({
+//   cloud_name: process.env.CLOUDINARY_API_NAME,
+//   api_key: process.env.CLOUDINARY_API_KEY,
+//   api_secret: process.env.CLOUDINARY_API_SECRET,
+// })
 
 
 
@@ -26,8 +26,8 @@ server.use("*", (req, res, next) => {
   return res.status(404).json(`error 404: route not found`)
 })
 
-server.listen(3500, ()=> {
-   console.log(`server launched at: http://localhost:3500`)
+server.listen(3000, ()=> {
+   console.log(`server launched at: http://localhost:3000`)
 })
 
  
